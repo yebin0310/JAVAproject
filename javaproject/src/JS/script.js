@@ -7,14 +7,14 @@ function dd() {
 }
 const div = document.createElement('div');
 div.className = 'start';
-div.innerText = "시작하기";
+div.innerText = "Go";
 const link = document.createElement('a');
 function btnAppear() {
     a.appendChild(div);
 }
 function Click() {
     console.log("클릭");
-    location.href = "../pages/main.html";
+    window.location.href = "/javaproject/public/pages/main.html";
 }
 dd();
 div.addEventListener('click', Click);
