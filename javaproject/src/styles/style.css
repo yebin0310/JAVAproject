@@ -20,7 +20,7 @@ body {
 }
 body .ment {
   font-family: "Cafe24Ssurround";
-  font-size: 10px;
+  font-size: 30px;
   width: 50vw;
   height: 25vh;
   display: flex;
@@ -45,11 +45,11 @@ body .start {
   -webkit-animation: fadeInDown 1s;
           animation: fadeInDown 1s;
   position: relative;
-  font-size: 1px;
+  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 80vh;
+  bottom: 75vh;
   left: 22vw;
   width: 6vw;
   height: 4vh;

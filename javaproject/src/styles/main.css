@@ -39,12 +39,14 @@ main {
 	bottom: 10vh;
 }
 h3 {
-	font-size: 15px;
+	font-size: 35px;
+	animation: moveToRight 1s ease-in-out;
 }
 p {
-	font-size: 5px;
+	font-size: 25px;
 	color: gray;
 	font-weight: 600;
+	animation: moveToRight 1.5s ease-in-out;
 }
 nav {
 	width: 100vw;
@@ -109,7 +111,7 @@ footer {
 }
 .login,
 .signup {
-	font-size: 1px;
+	font-size: 15px;
 }
 a {
 	display: flex;
@@ -117,4 +119,25 @@ a {
 	justify-content: center;
 	text-decoration: none;
 	color: black;
+	font-size: 20px;
+}
+.immg {
+	animation: 2s fadein;
+}
+@keyframes moveToRight {
+	0% {
+		transform: translateX(-300px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+@keyframes fadein {
+	/* Opera */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
